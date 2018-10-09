@@ -81,7 +81,7 @@ findMinMax([4, 2, 66, -44, 87], false);
 const forEach = function(a,b){
 	let  i =0;
 	while(i<a.length){
-		console.log(a[i]);
+		b(a[i]);
 		i++;
 	}
 };
